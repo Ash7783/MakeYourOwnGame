@@ -64,7 +64,7 @@ function draw() {
     gameState = 'end';
     textSize(50)
     fill("black")
-    text("Game Over", windowWidth / 2 - 125, windowHeight / 2 + 150)
+    text("Game Over, You Suck", windowWidth / 2 - 100, windowHeight / 2 + 150)
     paddle.x = windowWidth / 2
   }
 
